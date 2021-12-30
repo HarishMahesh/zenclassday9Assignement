@@ -1,0 +1,205 @@
+<html lang="en">
+  <head>
+    <!-- questio1 and question2 - answer -->
+    <title>Document guvi</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+  <body>
+    <!-- questio1 and question2 - answer -->
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+      <div>Guvi Geek Network</div>
+    </div>
+    <hr />
+    <!-- Design a contact us form with all fields as required. -->
+    <!-- In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+    <!-- Write HTML input tags snippet to show default values for all Form elements. -->
+
+    <div>
+      <h3>Contact us form</h3>
+      <form>
+        <label for="name">Name :</label>
+        <input type="text" id="name" required placeholder="name" /> <br /><br />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" required placeholder="email" />
+        <br /><br />
+
+        <label>Employee Type :</label>
+        <label for="Salaried">Salaried</label>
+        <input
+          type="radio"
+          name="Employee Type"
+          id="Salaried"
+          value="Salaried"
+          required
+        />
+        <label for="business">own business</label>
+        <input
+          type="radio"
+          name="Employee Type"
+          id="business"
+          value="own business"
+        />
+        <br /><br />
+        <label for="comments">Comments :</label>
+        <textarea
+          id="comments"
+          placeholder="Write something.."
+          rows="10"
+          cols="50"
+          required
+        ></textarea>
+        <br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Use certain HTML elements to display the following in a HTML page. -->
+
+    <hr />
+    <div>
+      <ul>
+        <li>
+          Programming Language
+          <ul>
+            <li>
+              JavaScript
+              <ol type="a">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li>
+              </ol>
+            </li>
+            <li>
+              Python
+              <ol type="a">
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+              </ol>
+            </li>
+            <li>
+              Java
+              <ol type="a">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Database
+          <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <hr />
+
+    <!-- Create an element that helps you to open the https://google.com in separate new tab. -->
+
+    <p>
+      <a href="https://google.com" target="_blank">Click me</a> to search in
+      google..
+    </p>
+
+    <hr />
+
+    <!-- Use the table tag to design given image -->
+
+    <table>
+      <h5>Health Chart</h5>
+      <tr>
+        <th rowspan="2">State of health</th>
+        <th colspan="2">Fasting value</th>
+        <th>After eating</th>
+      </tr>
+      <tr>
+        <th>Minimum</th>
+        <th>Maximum</th>
+        <th>2 hours after eating</th>
+      </tr>
+      <tr>
+        <th>Healthy</th>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+      </tr>
+      <tr>
+        <th>Pre-Diabetes</th>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 120</td>
+      </tr>
+      <tr>
+        <th>Diabetes</th>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <!-- In your, HTML page add the below line and Highlight it without using any CSS. -->
+
+    <p><mark> HTML & CSS is awesome</mark></p>
+
+    <hr />
+    <!-- Create an HTML page, which should contain all types of input elements. -->
+
+    <h2>Types of input elements</h2>
+    <input type="button" name="button" value="button" /> <br />
+    <br />
+    <label for="checkbox">checkbox</label
+    ><input type="checkbox" id="checkbox" /><br /><br />
+
+    <label for="color">color</label>
+    <input type="color" id="color" /><br /><br />
+
+    <label for="date">date</label>
+    <input type="date" id="date" /><br /><br />
+
+    <input type="email" placeholder="email" /><br /><br />
+
+    <label for="uploadfile">uploadfile</label>
+    <input type="file" id="uploadfile" /><br /><br />
+
+    <label for="month">Select Month</label>
+    <input type="month" id="month" /><br /><br />
+
+    <input type="number" placeholder="number" /><br /><br />
+    <input type="password" placeholder="password" /><br /><br />
+
+    <label for="radio">Radio button</label>
+    <input type="radio" id="radio" /><br /><br />
+
+    <label for="range">Investment amount</label>
+    <input type="range" id="range" min="1000" max="20000" /><br /><br />
+
+    <input type="text" placeholder="text" /><br /><br />
+
+    <label for="time">Time</label>
+    <input type="time" id="time" /><br /><br />
+
+    <input type="url" placeholder="url" /><br /><br />
+
+    <label for="week">Select week</label>
+    <input type="week" id="week" /><br /><br />
+
+    <hr />
+  </body>
+</html>
